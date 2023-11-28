@@ -1,0 +1,113 @@
+  <mjml>
+    <mj-head>
+
+            <mj-style>
+     {`
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&family=Playfair+Display:wght@400;500&family=Poppins:wght@100;300;400;500;600&display=swap');
+        /* Add any additional styles here */
+      `}
+      .rounded {
+        border='2px solid #7056F2'; border-radius='12px'; padding='5px',
+        border-radius='12px' 
+      }
+      </mj-style>
+          <mj-raw>
+      <style>
+        .custom-image {
+          position: absolute;
+          z-index: 1; /* Adjust the z-index value as needed */
+        }
+      </style>
+    </mj-raw>
+    </mj-head>
+    <mj-body>
+
+<mj-section>
+  <mj-column border-radius="2px" border-bottom="2px solid #7056F2" padding-bottom="10px">
+    <mj-image width="180px" height="40px" src="https://s3.ap-south-1.amazonaws.com/nkcollect2.0/coupon/GiftonLogo.png" align="left"></mj-image>
+  </mj-column>
+</mj-section>
+<mj-section>
+  <mj-column border-radius="2px"  padding-bottom="10px">
+    <mj-image src="https://s3.ap-south-1.amazonaws.com/nkcollect2.0/coupon/hero.png" align="left"></mj-image>
+  </mj-column>
+</mj-section>
+
+
+
+      <mj-section >
+        <mj-column>
+          <mj-text font-size="18px" font-weight='bold'  align='left' font-family="Nunito, sans-serif">
+            Dear [Customer's Name],
+          </mj-text>
+          <mj-text font-size='18px' color='grey' font-family="Nunito, sans-serif" >
+            We are thrilled to inform you that your recent purchase of vouchers has been successfully processed. Thank you for choosing GiftOn for your purchase, and we hope you enjoy the benefits and experiences these vouchers offer.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+<mj-section padding-top='2px' >
+  <mj-column border-radius='15px' border='2px solid #7056F2'  padding='5px' >
+    <mj-text font-weight="bold" font-size="16px" line-height="1%" font-family="Nunito, sans-serif">Voucher Details:</mj-text>
+       <mj-raw>
+      <div style="position: relative;">
+        <mj-image src="https://s3.ap-south-1.amazonaws.com/nkcollect2.0/coupon/coupon.png" height='80px' width='80px'
+         style="position: absolute; z-index: 10; top:0; right: 0"></mj-image>
+      </div>
+    </mj-raw>
+    <mj-table width='100%' font-family="Nunito, sans-serif">
+      <tr style="text-align: left ">
+        <td>Voucher Code:</td>
+        <td>[Your Unique Voucher Code]</td>
+      </tr>
+      <tr style="text-align: left ">
+        <td>Voucher Name:</td>
+        <td>[Name of the Voucher]</td>
+      </tr>
+      <tr style="text-align: left ">
+        <td>Quantity:</td>
+        <td>[Number of Vouchers Purchased]</td>
+      </tr>
+      <tr style="text-align: left ">
+        <td>Amount:</td>
+        <td>[Total Amount Spent]</td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>
+
+
+      <mj-section padding-top='2px'>
+  <mj-column border='2px solid #7056F2'
+  border-radius="3px 3px 3px 3px" padding='5px'  >
+    <mj-text font-weight="bold" font-size="16px" line-height="1%"
+    font-family="Nunito, sans-serif" >Purchase Details:</mj-text>
+    <mj-table width="100%" font-family="Nunito, sans-serif">
+ 
+      <tr style="text-align: left ">
+        <td>Order Number:</td>
+        <td>[Your Order Number]</td>
+      </tr>
+      <tr style=" text-align: left ">
+        <td>Date and Time:</td>
+        <td>[Date and Time of Purchase]</td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>
+
+
+
+
+      <mj-section>
+        <mj-column  >
+          <mj-text font-size='18px' font-family="Nunito, sans-serif">
+            Best regards,
+          </mj-text>
+          <mj-text font-size='18px' font-family="Nunito, sans-serif">
+            GiftOn
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-body>
+  </mjml>
